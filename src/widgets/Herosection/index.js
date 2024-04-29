@@ -14,7 +14,7 @@ const HeroSection = () => {
     <div className='flex items-center justify-between'>
         <div>
             <div className='flex items-center gap-6'>
-                <div className='bg-black-color w-[72px] h-[72px] w-full rounded-full flex justify-center items-center'>
+                <div className='bg-black-color w-[72px] h-[72px]  rounded-full flex justify-center items-center'>
                 <span className='text-white-color block number-block text-fs-24'>20</span>
                 </div>
                 <div>
