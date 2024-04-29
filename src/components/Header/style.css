@@ -1,0 +1,64 @@
+    .header-wrap{
+      background-color: #ffffffb3;
+    }
+    .gt-btn{
+    width: 142px;
+    height: 38px;
+    border-radius: 25px;
+    position: relative;
+    overflow:hidden;
+    border: 1px solid var(--blue-color);
+    }
+
+    .primary-text {
+    transition: top 0.6s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    white-space: nowrap;
+    transform: translate(-50%, -50%);
+    }
+  
+    .secondary-text {
+    transition: top 0.6s;
+    top: 80px;
+    position: absolute;
+    left: 50%;
+    white-space: nowrap;
+    transform: translateX( -50%);
+    }
+
+    .gt-btn:hover .primary-text {
+    top:-80px;
+    }
+
+  .gt-btn:hover .secondary-text {
+    top:50%;
+    transform: translate(-50%, -50%);
+
+  }
+
+  .rounded-menu-btn{
+    border: 1px solid var(--black-color);
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+  }
+
+  .rounded-menu-btn span{
+    height: 2px ;
+    width: 15px;
+    background-color: var(--black-color);
+    border-radius: 100px;
+    transition:all 0.3s ease-in;
+  }
+
+  .rounded-menu-btn:hover{
+    width: 100px;
+  }

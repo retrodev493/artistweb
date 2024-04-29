@@ -1,0 +1,16 @@
+.btn.btn-primary{
+    background-color: var(--blue-color);
+    color: var(--white-color);
+
+}
+
+.btn.outline-primary{
+    border: 1px solid var(--blue-color);
+
+}
+.btn{
+    cursor: pointer;
+    border-radius: 100px !important;
+    padding: 0 24px !important;
+
+}

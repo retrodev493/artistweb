@@ -1,0 +1,16 @@
+
+
+
+.get-in-touch-links {
+  transition: 0.3s ease-in-out;
+}
+
+.get-in-touch-links:hover {
+  transform: translateX(20px);
+}
+.follow-us-img-wrap img {
+  transition: all 0.5s ease;
+}
+.follow-us-img-wrap:hover img {
+  scale: 2.5;
+}
