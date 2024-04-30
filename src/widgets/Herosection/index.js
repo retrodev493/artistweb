@@ -27,7 +27,7 @@ const HeroSection = () => {
                 <div>
                 <p className='text-fs-28 max-w-[740px]'>{bannerData.data2.title}</p>
                 </div>
-         
+                
                 <Link className='primary-btn bg-blue-color max-w-[244px] block' title={bannerData.data2.btn_text} href={bannerData.data2.btn_link}>
                     <span className='text-1 text-white-color text-fs-24'>{bannerData.data2.btn_text}</span>
                     <span className='text-2 text-white-color text-fs-24'>{bannerData.data2.btn_text}</span>

@@ -1,7 +1,7 @@
 .text-gradient-anim {
     background: var(--text-bg);
     background-size: 200% 200%;
-    animation: gradientAnimation 10s linear infinite;
+    animation: gradientAnimation 8s linear infinite;
     background-clip: text;
     color: transparent;
 }
