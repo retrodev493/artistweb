@@ -29,6 +29,7 @@ module.exports = {
        "text-bg": "var(--text-bg)",
        "text-bg-2":"var(--text-bg-2)",
         "bg-gray":"var(--bg-gray)",
+        "text-gradient":"var(--text-gradient)"
       },
       colors:{
         "white-color":  "var(--white-color)",
@@ -40,7 +41,8 @@ module.exports = {
       fontSize:{
         "ttl-53":"var(--ttl-53)",
         "ttl-48":"var(--ttl-48)",
-        "ttl-63":"var(--ttl-63 )",
+        "ttl-63":"var(--ttl-63)",
+        "ttl-67":"var(--ttl-67)",
         "ttl-149":"var(--ttl-149)",
         "fs-16":"var(--fs-16)",
         "fs-20":"var(--fs-20)",
@@ -50,7 +52,6 @@ module.exports = {
       },
       backgroundImage:{
         "blue-gradient":"var(--blue-gradient)"
-
       }
     },
   },
