@@ -5,7 +5,7 @@ import './style.css'
 const Ourteam = () => {
   return (
     <section className='pb-[144px]'>
-          <div className='py-[144px] bg-blue-gradient bg-black-color '>
+        <div className='py-[144px] bg-blue-gradient bg-black-color'>
         <div className='container'>
             <div className='mb-4'>
               <h5 className='text-fs-28 text-white-color font-medium'>{teamdata.title}</h5>
@@ -25,7 +25,7 @@ const Ourteam = () => {
             <div className='flex gap-4'>
             {teamdata.btn_data.map((item , index)=>(
               <div key={index} className='border border-solid border-blue-color rounded-full h-[72px] flex items-center justify-center'>
-              <span className='text-white-color block px-12 text-fs-24 font-normal' >
+              <span className='text-white-color block px-12 text-fs-24 font-normal'>
                 {item.content}
               </span>
               </div>

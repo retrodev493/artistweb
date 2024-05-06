@@ -1,5 +1,7 @@
     .header-wrap{
       background-color: #ffffffb3;
+      backdrop-filter: blur(9px); 
+
     }
     .gt-btn{
     width: 142px;
