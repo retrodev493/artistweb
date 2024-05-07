@@ -6,6 +6,14 @@
 
 .btn.outline-primary{
     border: 1px solid var(--blue-color);
+    padding: 0 48px !important;
+    height: 72px;
+
+}
+.btn.outline-secondary{
+    border: 1px solid var(--white-color);
+    padding: 0 48px !important;
+    height: 72px;
 
 }
 .btn{

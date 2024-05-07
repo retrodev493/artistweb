@@ -29,7 +29,8 @@ module.exports = {
        "text-bg": "var(--text-bg)",
        "text-bg-2":"var(--text-bg-2)",
         "bg-gray":"var(--bg-gray)",
-        "text-gradient":"var(--text-gradient)"
+        "text-gradient":"var(--text-gradient)",
+        "text-gradient2":"var(--text-gradient2)"
       },
       colors:{
         "white-color":  "var(--white-color)",
@@ -49,6 +50,8 @@ module.exports = {
         "fs-24":"var(--fs-24)",
         "fs-28":"var(--fs-28)",
         "fs-30":"var(--fs-30)",
+        "fs-38":"var(--fs-38)",
+        "fs-108":"var(--fs-108)",
       },
       backgroundImage:{
         "blue-gradient":"var(--blue-gradient)"

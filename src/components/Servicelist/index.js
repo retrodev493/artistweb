@@ -6,8 +6,8 @@ const Servicelist = () => {
   return (
     <ul>
     {serviceData.links.data.map((item , index)=>(
-        <li key={index}>
-            <Link></Link>
+        <li className='mb-2 hover:translate-x-[20px] transition-all duration-500 ease-in-out w-[max-content]' key={index}>
+            <Link className='text-fs-38 font-semibold' href={item.link}>{item.title}</Link>
         </li>
     ))}
     </ul>
