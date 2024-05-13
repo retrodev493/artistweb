@@ -2,31 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
-  --white-color:#fff;
-  --black-color:#111;
+:root {
+  --white-color: #fff;
+  --black-color: #111;
   --blue-color: #545cff;
-  --gray-color:#71777e;
-  
-  --linear-violet:radial-gradient(circle at 73% 145%,#545cff 0,transparent 42%);
-  --text-bg:linear-gradient(to right, #545cff, #1f2246, #545cff);
-  --text-bg-2:linear-gradient(45deg, #545cff, #8d95ff 80%);
-  --bg-gray:#ecf1f4;
-  --blue-gradient:radial-gradient(circle at 75% 140%, #545cff 0, transparent 35%);
-  --text-gradient: -webkit-linear-gradient(45deg,#545cff,#8d95ff 80%);
-  --text-gradient2:-webkit-linear-gradient(45deg, #545cff, #1f2246 80%);
+  --gray-color: #71777e;
+
+  --linear-violet: radial-gradient(
+    circle at 73% 145%,
+    #545cff 0,
+    transparent 42%
+  );
+  --text-bg: linear-gradient(to right, #545cff, #1f2246, #545cff);
+  --text-bg-2: linear-gradient(45deg, #545cff, #8d95ff 80%);
+  --bg-gray: #ecf1f4;
+  --blue-gradient: radial-gradient(
+    circle at 75% 140%,
+    #545cff 0,
+    transparent 35%
+  );
+  --text-gradient: -webkit-linear-gradient(45deg, #545cff, #8d95ff 80%);
+  --text-gradient2: -webkit-linear-gradient(45deg, #545cff, #1f2246 80%);
   --ttl-53: 53px;
   --ttl-48: 48px;
-  --ttl-63:63px;
-  --ttl-67:67px;
-  --ttl-149:149px;
+  --ttl-63: 63px;
+  --ttl-67: 67px;
+  --ttl-149: 149px;
   --fs-16: 16px;
   --fs-20: 20px;
-  --fs-24:24px;
+  --fs-24: 24px;
   --fs-28: 28px;
   --fs-30: 30px;
-  --fs-38:38.4px;
-  --fs-108:108px;
+  --fs-38: 38.4px;
+  --fs-108: 108px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--text-bg-2);
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-bg-2);
 }
 
 .primary-btn {
@@ -69,4 +88,3 @@
   top: 50%;
   transform: translate(-50%, -50%);
 }
-

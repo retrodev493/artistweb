@@ -20,9 +20,8 @@ const Partners = () => {
                 </div>
             ))}
             </div>
-            <div className='py-[144px]'>
-                <div className='overflow-auto'>
-
+            <div className='py-[144px] overflow-hidden'>
+                <div className=''>
                 <h4 className='text-ttl-149 whitespace-nowrap font-semibold'>{partnerData.sliding_text}</h4>
                 </div>
             </div>

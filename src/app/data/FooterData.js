@@ -24,22 +24,22 @@ export const footerLink = {
       {
         img: Assets.facebook,
         link: "./",
-        alt:"facebook"
+        alt: "facebook",
       },
       {
         img: Assets.instagram,
         link: "./",
-        alt:"instagram"
+        alt: "instagram",
       },
       {
         img: Assets.twitter,
         link: "./",
-        alt:"twitter"
+        alt: "twitter",
       },
       {
         img: Assets.linkedin,
         link: "./",
-        alt:"linkedin"
+        alt: "linkedin",
       },
     ],
   },
@@ -50,11 +50,11 @@ export const footerLink = {
     link_url: "./",
   },
 
-  terms:{
-    cpright:"© 2024 Artistweb Ltd · All rights reserved",
-    policy_ttl:"Privacy Policy",
-    policy_link:"./",
-    terms_ttl:"Terms & Conditions",
-    terms_link:"./"
-  }
+  terms: {
+    cpright: "© 2024 Artistweb Ltd · All rights reserved",
+    policy_ttl: "Privacy Policy",
+    policy_link: "./",
+    terms_ttl: "Terms & Conditions",
+    terms_link: "./",
+  },
 };

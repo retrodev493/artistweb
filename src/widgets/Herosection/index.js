@@ -4,7 +4,7 @@ import './style.css'
 import Link from 'next/link'
 const HeroSection = () => {
   return (
-   <section className='pt-[240px] pb-[144px] '>
+   <section className='pt-[240px] pb-[144px]'>
     <div className='container'>
     <div className='mb-[152px]'>
     <h1 className='text-ttl-149 banner-ttl font-semibold banner-title leading-[1.14]'>

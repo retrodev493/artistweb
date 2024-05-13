@@ -8,9 +8,9 @@ export const digitalData = {
   marketdata: [
     {
       number: 20,
-      title:"Years on the market",
+      title: "Years on the market",
     },
-    { 
+    {
       number: 500,
       title: "Satisfied Customers",
     },

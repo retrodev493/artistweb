@@ -6,35 +6,33 @@
   background-position: 100%;
   position: relative;
   width: 100%;
-  
+
   height: auto;
 }
 
-.section-bg::after{
-    content: "";
-    background:linear-gradient(to right, #fff, hsla(0,0%,100%,0));
-    position: absolute;
-    content: "";
-    width: 50%;
-    height: 100%;
-    top: 0;
+.section-bg::after {
+  content: "";
+  background: linear-gradient(to right, #fff, hsla(0, 0%, 100%, 0));
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 100%;
+  top: 0;
 }
-.section-bg::before{
-    content: "";
-    background:linear-gradient(to right, #fff, hsla(0,0%,100%,0));
-    position: absolute;
-    content: "";
-    width: 20%;
-    height: 100%;
-    top: 0;
-    right: 0;
+.section-bg::before {
+  content: "";
+  background: linear-gradient(to right, #fff, hsla(0, 0%, 100%, 0));
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 100%;
+  top: 0;
+  right: 0;
 }
-
 
 .text-gradient2 {
-    background: var(--text-gradient2) ;
-    background-size: 150% 200%; 
-    background-clip: text;
-    color: transparent;
-  }
-  
+  background: var(--text-gradient2);
+  background-size: 150% 200%;
+  background-clip: text;
+  color: transparent;
+}
